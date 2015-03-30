@@ -4,9 +4,6 @@ title: About me
 permalink: /about/
 ---
 
-Hi, I am Gayan Virajith, a developer (who works on the web) based on Sri Lanka. 
-Graduated from the University College Dublin (National University of Ireland). 
-
 Hi, I am James Meneghello, a PhD Candidate at Murdoch University in Perth, Australia.
 I graduated from Murdoch University with a Bachelor of Science in Computer Science and Internet Software Development, before co-founding a web development firm. I later completed my Master of Science in Information Technology at Murdoch, and was awarded an Australian Postgraduate Award to complete a PhD in Data Mining.
 
