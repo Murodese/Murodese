@@ -10,6 +10,8 @@ categories:
 permalink: cfhns-testbed
 ---
 
+Note: this post is an appendix reference for a paper, "Social Data Extraction through Canopied Feature Hashing with Nested Structure Detection".
+
 ### Results
 
 |---
@@ -69,7 +71,7 @@ permalink: cfhns-testbed
 
 ### URLs
 
-```
+
 http://9to5mac.com/2015/03/08/apple-campus-2-drone-flyover/
 http://bbs.boingboing.net/t/act-now-congress-wants-to-fast-track-the-trans-pacific-partnership/52776
 http://clubtroppo.com.au/2015/02/12/stem-part-culture-war-part-cargo-cult-my-latest-fin-column/
@@ -120,4 +122,3 @@ https://www.indiegogo.com/projects/rocketbook-cloud-integrated-microwavable-note
 https://www.kickstarter.com/projects/1853707494/pancakebot-the-worlds-first-pancake-printer/comments
 https://www.ozbargain.com.au/node/185655
 http://www.theguardian.com/australia-news/2015/mar/15/crossbenchers-rebuff-pyne-ultimatum-on-university-reforms-and-research
-```
