@@ -121,3 +121,7 @@ Note: this post is an appendix reference for a paper, "Social Data Extraction th
 - <https://www.kickstarter.com/projects/1853707494/pancakebot-the-worlds-first-pancake-printer/comments>
 - <https://www.ozbargain.com.au/node/185655>
 - <http://www.theguardian.com/australia-news/2015/mar/15/crossbenchers-rebuff-pyne-ultimatum-on-university-reforms-and-research>
+
+### Data and URLs as a CSV
+
+The result data and testbed URL list is available [here]({{ site.url }}/assets/data/cfhns.csv).
