@@ -27,7 +27,7 @@ A structural XPath can locate elements in a DOM tree based on a minimal set of a
 {% endhighlight %}
 Figure 1. Two example structural XPaths: to depth [1, 2]
 
-An algorithm to generate a structural XPath is presented in Listing \ref{lst:sde:structure_xpath}. At each level of the tree, the tag types of children are counted. By using the XPath predicate `count()`, elements that contain a precise number of certain tag types can be selected. By going deeper into the tree, more complex structures can be selected because only elements that exactly match the predicate in each branch of the tree will satisfy the search. Leniency is allowed for structures that contain tags not mentioned by the predicates, as only tags mentioned in a `count()` predicate are checked.
+An algorithm to generate a structural XPath is presented in Listing 1. At each level of the tree, the tag types of children are counted. By using the XPath predicate `count()`, elements that contain a precise number of certain tag types can be selected. By going deeper into the tree, more complex structures can be selected because only elements that exactly match the predicate in each branch of the tree will satisfy the search. Leniency is allowed for structures that contain tags not mentioned by the predicates, as only tags mentioned in a `count()` predicate are checked.
 
 {% highlight python %}
 function RecursiveStructureXPath(tag, depth, level=0)
