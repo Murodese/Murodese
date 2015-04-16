@@ -94,7 +94,7 @@ Figure 3. Two example identifying XPaths, from one point to its nearest unique p
 
 Similar to relative XPaths, the creation of an identifying XPath starts at the child and walks up the tree until a unique parent is discovered. This can be an element with an ID attribute (which are unique) or a set of classes that are likely to be unique - or at least fairly discerning. In some cases, this may be the element itself - in which case, the identifying XPath is quite simple. In others, we must walk several levels up to find a unique parent. An algorithm to generate identifying XPaths is presented in Listing 3.
 
-~~~
+{% highlight python %}
 function IdentifyingXPath(tag, target)
     path_components = list()
     loop
@@ -118,8 +118,7 @@ function IdentifyingXPath(tag, target)
                     break
     xpath = join(path_components, "/")
     return xpath
-~~~
-{: .language-python}
+{% endhighlight %}
 Listing 3. Generating an identifying XPath from one tag to a parent
 
 Identifying XPaths are particularly useful for finding and locating specific elements, rather than similar structures. They can be used to express and locate buttons, links or pagination elements.
